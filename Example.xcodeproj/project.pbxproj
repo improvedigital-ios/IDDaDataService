@@ -28,7 +28,6 @@
 		55035258209484CA0066DE7C /* IDDaDataAddressDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55035246209484CA0066DE7C /* IDDaDataAddressDataResponse.m */; };
 		55035259209484CA0066DE7C /* IDDaDataAddressResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55035247209484CA0066DE7C /* IDDaDataAddressResponse.m */; };
 		5503525A209484CA0066DE7C /* IDDaDataAddressFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503524A209484CA0066DE7C /* IDDaDataAddressFormatter.m */; };
-		5503525B209484CA0066DE7C /* IDViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503524B209484CA0066DE7C /* IDViewAnimator.m */; };
 		6EDBA46591A9B14D83DB27CF /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DCBD682B0A04AFA74C7507 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		55035228209484CA0066DE7C /* IDDaDataNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDDaDataNetworkService.h; sourceTree = "<group>"; };
 		55035229209484CA0066DE7C /* IDDaDataRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataRequestBuilder.m; sourceTree = "<group>"; };
 		5503522A209484CA0066DE7C /* IDDaDataNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataNetworkService.m; sourceTree = "<group>"; };
-		5503522B209484CA0066DE7C /* IDViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDViewAnimator.h; sourceTree = "<group>"; };
 		5503522E209484CA0066DE7C /* IDDaDataAddressPlainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDDaDataAddressPlainObject.h; sourceTree = "<group>"; };
 		5503522F209484CA0066DE7C /* IDDaDataFilterObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataFilterObject.m; sourceTree = "<group>"; };
 		55035230209484CA0066DE7C /* IDDaDataValuePlainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataValuePlainObject.m; sourceTree = "<group>"; };
@@ -77,7 +75,7 @@
 		55035247209484CA0066DE7C /* IDDaDataAddressResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataAddressResponse.m; sourceTree = "<group>"; };
 		55035249209484CA0066DE7C /* IDDaDataAddressFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDDaDataAddressFormatter.h; sourceTree = "<group>"; };
 		5503524A209484CA0066DE7C /* IDDaDataAddressFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataAddressFormatter.m; sourceTree = "<group>"; };
-		5503524B209484CA0066DE7C /* IDViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDViewAnimator.m; sourceTree = "<group>"; };
+		5551D10D2094952C0097EE8D /* IDDaDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataService.h; sourceTree = "<group>"; };
 		7D5886AF728EFE8C3F593F79 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8150B77E7D5D4D7A135E2B39 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,8 +138,7 @@
 		55035221209484CA0066DE7C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5503522B209484CA0066DE7C /* IDViewAnimator.h */,
-				5503524B209484CA0066DE7C /* IDViewAnimator.m */,
+				5551D10D2094952C0097EE8D /* IDDaDataService.h */,
 				5503522C209484CA0066DE7C /* Model */,
 				55035222209484CA0066DE7C /* Network */,
 			);
@@ -345,7 +342,6 @@
 			files = (
 				55035210209482730066DE7C /* ViewController.m in Sources */,
 				55035250209484CA0066DE7C /* IDDaDataValuePlainObject.m in Sources */,
-				5503525B209484CA0066DE7C /* IDViewAnimator.m in Sources */,
 				5503524C209484CA0066DE7C /* IDDaDataTipsService.m in Sources */,
 				55035258209484CA0066DE7C /* IDDaDataAddressDataResponse.m in Sources */,
 				5503524E209484CA0066DE7C /* IDDaDataNetworkService.m in Sources */,

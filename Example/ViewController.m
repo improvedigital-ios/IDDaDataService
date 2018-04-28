@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "IDDaDataTipsService.h"
-#import "IDDaDataOrganizationSuggestionsResponse.h"
-#import "IDDaDataOrganizationResponse.h"
+#import "IDDaDataService.h"
 
 static NSString * const kCellIdentifier = @"CellIdentifier";
 
@@ -32,6 +30,7 @@ static NSString * const kCellIdentifier = @"CellIdentifier";
     
     // * SETUP API KEY HERE * //
     self.dadataService.apiKey = nil;
+    
     [self.textField.rac_textSignal subscribeNext:^(NSString * _Nullable x) {
         
         @weakify(self)
