@@ -12,6 +12,9 @@
 #import "IDDaDataOrganizationNameResponse.h"
 #import "IDDaDataOrganizationResponse.h"
 #import "IDDaDataOrganizationSuggestionsResponse.h"
+#import "IDDaDataOrganizationManagmentResponse.h"
+#import "IDDaDataOrganizationStateResponse.h"
+#import "IDDaDataOrganizationOPFResponse.h"
 
 #import "IDDaDataAddressDataResponse.h"
 #import "IDDaDataAddressResponse.h"

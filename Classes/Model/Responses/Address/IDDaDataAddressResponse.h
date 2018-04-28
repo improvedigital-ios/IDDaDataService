@@ -1,6 +1,6 @@
 //
 //  IDDaDataAddressResponse.h
-//  objc.shoploan
+//  Improve Digital
 //
 //  Created by Наиль  on 11.09.17.
 //  Copyright © 2017 Improve Digital. All rights reserved.

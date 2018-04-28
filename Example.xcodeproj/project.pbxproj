@@ -28,6 +28,9 @@
 		55035258209484CA0066DE7C /* IDDaDataAddressDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55035246209484CA0066DE7C /* IDDaDataAddressDataResponse.m */; };
 		55035259209484CA0066DE7C /* IDDaDataAddressResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55035247209484CA0066DE7C /* IDDaDataAddressResponse.m */; };
 		5503525A209484CA0066DE7C /* IDDaDataAddressFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5503524A209484CA0066DE7C /* IDDaDataAddressFormatter.m */; };
+		5551D1192094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5551D1182094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.m */; };
+		5551D11C2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5551D11B2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m */; };
+		5551D11F2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5551D11E2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m */; };
 		6EDBA46591A9B14D83DB27CF /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DCBD682B0A04AFA74C7507 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +79,12 @@
 		55035249209484CA0066DE7C /* IDDaDataAddressFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDDaDataAddressFormatter.h; sourceTree = "<group>"; };
 		5503524A209484CA0066DE7C /* IDDaDataAddressFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDDaDataAddressFormatter.m; sourceTree = "<group>"; };
 		5551D10D2094952C0097EE8D /* IDDaDataService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataService.h; sourceTree = "<group>"; };
+		5551D1172094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataOrganizationManagmentResponse.h; sourceTree = "<group>"; };
+		5551D1182094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDDaDataOrganizationManagmentResponse.m; sourceTree = "<group>"; };
+		5551D11A2094A4960097EE8D /* IDDaDataOrganizationStateResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataOrganizationStateResponse.h; sourceTree = "<group>"; };
+		5551D11B2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDDaDataOrganizationStateResponse.m; sourceTree = "<group>"; };
+		5551D11D2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataOrganizationOPFResponse.h; sourceTree = "<group>"; };
+		5551D11E2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDDaDataOrganizationOPFResponse.m; sourceTree = "<group>"; };
 		7D5886AF728EFE8C3F593F79 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8150B77E7D5D4D7A135E2B39 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +222,12 @@
 				5503523D209484CA0066DE7C /* IDDaDataOrganizationResponse.m */,
 				55035239209484CA0066DE7C /* IDDaDataOrganizationSuggestionsResponse.h */,
 				5503523E209484CA0066DE7C /* IDDaDataOrganizationSuggestionsResponse.m */,
+				5551D1172094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.h */,
+				5551D1182094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.m */,
+				5551D11A2094A4960097EE8D /* IDDaDataOrganizationStateResponse.h */,
+				5551D11B2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m */,
+				5551D11D2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.h */,
+				5551D11E2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m */,
 			);
 			path = Organization;
 			sourceTree = "<group>";
@@ -347,6 +362,7 @@
 				5503524E209484CA0066DE7C /* IDDaDataNetworkService.m in Sources */,
 				5503524D209484CA0066DE7C /* IDDaDataRequestBuilder.m in Sources */,
 				55035254209484CA0066DE7C /* IDDaDataOrganizationResponse.m in Sources */,
+				5551D1192094A4070097EE8D /* IDDaDataOrganizationManagmentResponse.m in Sources */,
 				55035259209484CA0066DE7C /* IDDaDataAddressResponse.m in Sources */,
 				55035251209484CA0066DE7C /* IDDaDataAddressPlainObject.m in Sources */,
 				5503521B209482750066DE7C /* main.m in Sources */,
@@ -355,9 +371,11 @@
 				55035252209484CA0066DE7C /* IDDaDataValueTypePlainObject.m in Sources */,
 				5503520D209482730066DE7C /* AppDelegate.m in Sources */,
 				55035257209484CA0066DE7C /* IDDaDataAddressSuggestionsResponse.m in Sources */,
+				5551D11F2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m in Sources */,
 				5503525A209484CA0066DE7C /* IDDaDataAddressFormatter.m in Sources */,
 				55035253209484CA0066DE7C /* IDDaDataOrganizationDataResponse.m in Sources */,
 				5503524F209484CA0066DE7C /* IDDaDataFilterObject.m in Sources */,
+				5551D11C2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

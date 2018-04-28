@@ -1,22 +1,21 @@
 //
-//  IDDaDataOrganizationNameResponse.m
-//  Improve Digital
+//  IDDaDataOrganizationOPFResponse.m
+//  Example
 //
 //  Created by Андрей on 28.04.2018.
 //  Copyright © 2018 Improve Digital. All rights reserved.
 //
 
-#import "IDDaDataOrganizationNameResponse.h"
+#import "IDDaDataOrganizationOPFResponse.h"
 
-@implementation IDDaDataOrganizationNameResponse
+@implementation IDDaDataOrganizationOPFResponse
 
 + (JSONKeyMapper *)keyMapper {
     
     return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{
                                                                   
-                                                                  @"full_with_opf" : @"full_with_opf",
-                                                                  @"short_with_opf" : @"short_with_opf",
-                                                                  @"latin" : @"latin",
+                                                                  @"type" : @"type",
+                                                                  @"code" : @"code",
                                                                   @"full" : @"full",
                                                                   @"shortName" : @"short"
                                                                   
