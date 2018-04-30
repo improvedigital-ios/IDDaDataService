@@ -85,6 +85,7 @@
 		5551D11B2094A4960097EE8D /* IDDaDataOrganizationStateResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDDaDataOrganizationStateResponse.m; sourceTree = "<group>"; };
 		5551D11D2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDDaDataOrganizationOPFResponse.h; sourceTree = "<group>"; };
 		5551D11E2094A5280097EE8D /* IDDaDataOrganizationOPFResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDDaDataOrganizationOPFResponse.m; sourceTree = "<group>"; };
+		55699C7D2096F62B003C18C8 /* DaDataTipsAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DaDataTipsAPIKey.h; path = ../../../DaDataTipsAPIKey.h; sourceTree = "<group>"; };
 		7D5886AF728EFE8C3F593F79 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8150B77E7D5D4D7A135E2B39 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +132,7 @@
 		5503520A209482730066DE7C /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				55699C7D2096F62B003C18C8 /* DaDataTipsAPIKey.h */,
 				5503520B209482730066DE7C /* AppDelegate.h */,
 				5503520C209482730066DE7C /* AppDelegate.m */,
 				5503520E209482730066DE7C /* ViewController.h */,

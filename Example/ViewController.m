@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "IDDaDataService.h"
+#import "DaDataTipsAPIKey.h"
 
 static NSString * const kCellIdentifier = @"CellIdentifier";
 
@@ -29,7 +30,7 @@ static NSString * const kCellIdentifier = @"CellIdentifier";
     self.dadataService = [IDDaDataTipsService new];
     
     // * SETUP API KEY HERE * //
-    self.dadataService.apiKey = nil;
+    self.dadataService.apiKey = kDadataTipsAPIKey;
     
     [self.textField.rac_textSignal subscribeNext:^(NSString * _Nullable x) {
         
